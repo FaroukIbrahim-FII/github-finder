@@ -1,0 +1,111 @@
+#maindiv {
+  padding: 50px 0px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#searchusers {
+  display: block;
+  /* width: 100%; */
+  width: 99%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+#submitbutton {
+  padding: 0.4rem;
+  margin-top: 20px;
+  background: #333;
+  color: #ffff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  border: 1px solid #333;
+  height: 36px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#submitbutton:hover {
+  cursor: pointer;
+  background: rgb(102, 102, 102);
+  border: 1px solid rgb(102, 102, 102);
+}
+#clearbtn {
+  margin-top: 20px;
+  background: #f4f4f4;
+  color: #333;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  border: 1px solid #f4f4f4;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#wanring {
+  margin-top: -5px;
+  background: #f4f4f4;
+  color: #333;
+  width: 100%;
+  padding-top: 5px;
+  box-sizing: border-box;
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: left;
+  border: 1px solid #f4f4f4;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#clearbtn:hover {
+  cursor: pointer;
+  background: #f6f6f6;
+  border: 1px solid #f8f8f8;
+  color: rgb(80, 80, 80);
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+img {
+  border-radius: 50%;
+  width: 60px;
+}
+#card1 a {
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 5px 15px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.6;
+}
+#card1 {
+  padding: 1rem;
+  border: 1px dotted #ccc;
+  margin: 0.7rem 0;
+}
+#cardiv {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: space-between;
+}
