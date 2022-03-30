@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { badgesList } from "./common/listOfBadges";
 import UserBadgesList from "./common/UserBadgesList";
 
-import axios from "axios";
 import "./css/detailedUser.css";
 import Spinner from "./common/spinner";
 import useUserFunctions from "../hooks/useUserFunctions";

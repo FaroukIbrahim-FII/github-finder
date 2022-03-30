@@ -1,10 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { get_user_data } from "../redux/actions/userActions";
-import { get_user_repos } from "../redux/actions/reposActions";
-import { get_users_data } from "../redux/actions/usersActions";
-import axios from "axios";
-import { clear_users_data } from "../redux/actions/usersActions";
+import React from "react";
 import "./css/main.css";
 import { Link } from "react-router-dom";
 import Spinner from "./common/spinner";

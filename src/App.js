@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Main from "./components/Main";
 import DetailedUser from "./components/DetailedUser";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import NotFound from "./components/NotFound";
 
