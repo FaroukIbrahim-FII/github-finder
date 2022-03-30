@@ -7,10 +7,14 @@ import About from "./components/About";
 import NotFound from "./components/NotFound";
 
 import ReactGA from "react-ga";
+import { useEffect } from "react";
 const TRACKING_ID = "UA-224290684-2"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.pathname);
+  }, []);
   return (
     <div className="App">
       <NavBar />
