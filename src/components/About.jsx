@@ -1,5 +1,4 @@
 import React from "react";
-import Spinner from "./common/spinner";
 import "./css/about.css";
 
 function About(props) {
