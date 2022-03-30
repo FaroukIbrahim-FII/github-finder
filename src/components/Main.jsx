@@ -65,7 +65,7 @@ function Main() {
           {usersList.map((item) => {
             return (
               <div id="card1" key={item.id}>
-                <img src={item.avatar_url} alt="image" />
+                <img src={item.avatar_url} alt="" />
                 <h3>{item.login}</h3>
                 <Link
                   onClick={() => getUser(item.login)}
