@@ -10,15 +10,18 @@ import {
   get_user_repos,
   clear_user_repos,
 } from "../redux/actions/reposActions";
+import useAnalyticsEventTracker from "../hooks/useAnalyticsEventTracker";
 
 function useMainFunctions() {
   const [flag, setFlag] = useState(false);
   const [searchFlag, setSearchFlag] = useState(false);
   const dispatch = useDispatch();
   const usersList = useSelector((state) => state.usersList);
+  const gaEventTracker = useAnalyticsEventTracker("main button");
   async function getData(e) {
     e.preventDefault();
     clearData();
+    gaEventTracker("search click", "search click");
     const name = e.target.searchusers.value;
     if (name !== "") {
       setFlag(true);
