@@ -6,6 +6,10 @@ import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import NotFound from "./components/NotFound";
 
+import ReactGA from "react-ga";
+const TRACKING_ID = "UA-224290684-2"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
   return (
     <div className="App">

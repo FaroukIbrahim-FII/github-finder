@@ -7,38 +7,6 @@ import useMainFunctions from "../hooks/useMainFunctions";
 function Main() {
   const { searchFlag, usersList, flag, getData, clearData, getUser } =
     useMainFunctions();
-  // const [flag, setFlag] = useState(false);
-  // const [searchFlag, setSearchFlag] = useState(false);
-  // const dispatch = useDispatch();
-  // async function getData(e) {
-  //   e.preventDefault();
-  //   dispatch(get_users_data([]));
-  //   const name = e.target.searchusers.value;
-  //   if (name !== "") setFlag(true);
-  //   if (name === "") setSearchFlag(true);
-  //   if (name !== "") setSearchFlag(false);
-  //   const { data } = await axios.get(
-  //     `https://api.github.com/search/users?q=${name}&client_id=undefined&client_secret=undefined`
-  //   );
-  //   dispatch(get_users_data(data.items));
-  //   setFlag(false);
-  // }
-  // const usersList = useSelector((state) => state.usersList);
-  // function clearData() {
-  //   dispatch(clear_users_data());
-  // }
-  // async function getUser(loginName) {
-  //   dispatch(get_user_data([]));
-  //   dispatch(get_user_repos([]));
-  //   const { data } = await axios.get(
-  //     `https://api.github.com/users/${loginName}?client_id=undefined&client_secret=undefined`
-  //   );
-  //   const repoResponse = await axios.get(
-  //     `https://api.github.com/users/${loginName}/repos?per_page=5&sort=created:asc&client_id=undefined&client_secret=undefined`
-  //   );
-  //   dispatch(get_user_data(data));
-  //   dispatch(get_user_repos(repoResponse.data));
-  // }
 
   return (
     <div id="maindiv">
